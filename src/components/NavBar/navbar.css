@@ -1,0 +1,15 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkList{
+    list-style: none;
+}
+.linkList li{
+
+    display: inline;
+    margin-right: 2em;
+}
+
