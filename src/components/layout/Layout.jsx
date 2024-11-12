@@ -8,13 +8,13 @@ export const Layout = () => {
             <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" />
             <ul className="linkList">
                 <NavLink to="/">Pokemon</NavLink>
-                <NavLink to="/locations">Ciudades</NavLink>
+                <NavLink to="/locations">Locations</NavLink>
                 <NavLink to="/regions">Regions</NavLink>
             </ul>
 
         </nav>
         <Outlet />
-        <footer>
+        <footer className="footer">
             <p>©Catch'em all</p>
         </footer>
     </>

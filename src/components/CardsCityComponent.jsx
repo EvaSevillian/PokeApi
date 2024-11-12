@@ -22,7 +22,7 @@ export const CardsCityComponent = (props) => {
         <>
         <article>
         <h4>{props.name}</h4>
-        <a href={props.url}>Más información</a>
+        <a href={props.url}>More Information</a>
         </article>
         </>
     )

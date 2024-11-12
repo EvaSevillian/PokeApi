@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import "./app.css";
-
+import "./locations.css";
 import { CitySearchComponent } from "../../components/CitySearchComponent/CitySearchComponent";
 import { CardsCityComponent } from "../../components/CardsCityComponent";
 
@@ -38,7 +37,7 @@ const [backUrlPage, setBackUrlPage] = useState(null)
     <header className="header">
         <section className="header__section">
             <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="Pokeapi" />
-            <h2 className="titledate">LA NUEVA API DE POKéMON</h2>
+            <h2 className="titledate">La nueva API de Pokémon</h2>
             <p className="date">Descubre todos los datos del mundo Pokémon</p>
         </section>
     </header>
@@ -46,8 +45,8 @@ const [backUrlPage, setBackUrlPage] = useState(null)
         <CitySearchComponent apiData={apiData} />
         </section>
         <section>
-            <button onClick={BackPage}>Anterior</button>
-            <button onClick={NextPage}>Siguiente</button>
+            <button onClick={BackPage}>Previous</button>
+            <button onClick={NextPage}>Next</button>
         </section>
         <section>
         {apiData != null ? <> {

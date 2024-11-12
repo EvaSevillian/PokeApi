@@ -5,6 +5,8 @@ import { HomePage } from './pages/Home/HomePage'
 import { LocationPage } from './pages/locations/LocationPage'
 import { Layout } from './components/layout/Layout'
 import { PokemonDetailPage } from './pages/PokemonDetailPage/PokemonDetailPage'
+import { RegionsPage } from './pages/Regions/RegionsPage';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +16,8 @@ createRoot(document.getElementById('root')).render(
           <Route path='' element={<HomePage/>}/>
           <Route path="locations" element={<LocationPage/>}/>
           <Route path="pokemon/:id" element={<PokemonDetailPage/>}/>
+          <Route path="regions" element={<RegionsPage/>}/>
+
 
         </Route>
     

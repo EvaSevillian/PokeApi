@@ -20,9 +20,9 @@ export const CitySearchComponent = (props) => {
     return(
         <>
         <section className="sectionsearch">
-            <h3 className="citys">Bucar ciudades</h3>
-            <input className="inputcity" id="inputPoke" type="text" placeholder="Buscar Pokémon"/>
-            <button className="buttonciy" type="submit"  onClick={clickButtonCityNames}>Buscar</button>
+            <h3 className="citys">Search cities</h3>
+            <input className="inputcity" id="inputPoke" type="text" placeholder="Search Pokémon"/>
+            <button className="buttonciy" type="submit"  onClick={clickButtonCityNames}>Search</button>
         </section>
         </>
     )
