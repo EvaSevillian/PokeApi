@@ -37,7 +37,7 @@ export const HomePage = () => {
   return (
     <> {/* React.Fragment  o Fragment */}
       <header className="header">
-        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" />
+        <img className="header-img"src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" />
         <h1>The restful Pokémon API</h1>
         <h2> Serving over 2.5 billion API calls each month!</h2>
         <p>All the Pokémon data you'll ever need in one place,

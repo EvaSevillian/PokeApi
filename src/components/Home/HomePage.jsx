@@ -3,7 +3,7 @@ import "./app.css";
 import { PokemonCardComponent } from "../../components/PokemonCardComponent";
 import { PokemonSearchComponent } from "../PokemonSearchComponent";
 import { useEffect } from "react";
-
+import background from "../../assets/PokeballBG.png";
 
 export const HomePage = () => {
 
@@ -46,6 +46,8 @@ export const HomePage = () => {
       <div>
         <button onClick={PreviousButtonHandler}>Anterior</button>
         <button onClick={NextButtonHandler}>Siguiente</button>
+        <img src={background}/>
+
       </div>
       <section>
         {apiData != null ? <>{

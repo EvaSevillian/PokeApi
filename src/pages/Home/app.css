@@ -12,6 +12,11 @@ body {
 
 }
 
+.header-image {
+    width: 2rem;
+    height: auto;
+}
+
 .button-container {
     display: flex;
     gap: 1rem;
